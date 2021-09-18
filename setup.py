@@ -17,7 +17,7 @@ with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as readme:
     long_description = readme.read()
 
 validate_dependencies = [
-    "pytest>=5.4,<6",
+    "pytest>=6.2.5,<7",
     "pytest-asyncio<1",  # for async
     "Flask-Sockets>=0.2,<1",
     "Flask>=1,<2",  # TODO: Flask-Sockets is not yet compatible with Flask 2.x
