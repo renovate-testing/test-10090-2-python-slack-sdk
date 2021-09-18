@@ -31,7 +31,7 @@ validate_dependencies = [
     # used only under slack_sdk/*_store
     "boto3<=2",
     # TODO: Upgrade to v2
-    "moto<2",  # For AWS tests
+    "moto<3",  # For AWS tests
 ]
 codegen_dependencies = [
     "black==21.9b0",
