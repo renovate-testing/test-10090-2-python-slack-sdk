@@ -304,7 +304,7 @@ setup(
             "aiodns>1.0",
             # We recommend using 3.7.1+ for RTMClient
             # https://github.com/slackapi/python-slack-sdk/issues/912
-            "aiohttp>=3.7.3,<4",
+            "aiohttp>=3.7.4.post0,<4",
             # used only under slack_sdk/*_store
             "boto3<=2",
             # InstallationStore/OAuthStateStore
