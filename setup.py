@@ -308,7 +308,7 @@ setup(
             # used only under slack_sdk/*_store
             "boto3<=2",
             # InstallationStore/OAuthStateStore
-            "SQLAlchemy>=1,<2",
+            "SQLAlchemy>=1.4.26,<2",
             # Socket Mode
             "websockets>=9.1,<10",
             "websocket-client>=1,<2",
