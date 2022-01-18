@@ -29,7 +29,7 @@ validate_dependencies = [
     "psutil>=5,<6",
     "databases>=0.3",
     # used only under slack_sdk/*_store
-    "boto3<=2",
+    "boto3<=1.20.37",
     # TODO: Upgrade to v2
     "moto<2",  # For AWS tests
 ]
@@ -306,7 +306,7 @@ setup(
             # https://github.com/slackapi/python-slack-sdk/issues/912
             "aiohttp>=3.7.3,<4",
             # used only under slack_sdk/*_store
-            "boto3<=2",
+            "boto3<=1.20.37",
             # InstallationStore/OAuthStateStore
             "SQLAlchemy>=1,<2",
             # Socket Mode
