@@ -27,7 +27,7 @@ validate_dependencies = [
     "flake8>=3,<4",
     "black==21.9b0",
     "psutil>=5,<6",
-    "databases>=0.3",
+    "databases>=0.5.4",
     # used only under slack_sdk/*_store
     "boto3<=2",
     # TODO: Upgrade to v2
