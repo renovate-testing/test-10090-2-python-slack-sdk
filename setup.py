@@ -26,7 +26,7 @@ validate_dependencies = [
     "codecov>=2,<3",
     "flake8>=3,<4",
     "black==21.9b0",
-    "psutil>=5,<6",
+    "psutil>=5.9.0,<6",
     "databases>=0.3",
     # used only under slack_sdk/*_store
     "boto3<=2",
